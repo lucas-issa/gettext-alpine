@@ -1,6 +1,4 @@
-FROM alpine:3.8
-
-WORKDIR /app
+FROM alpine:latest
 
 RUN apk update && \
-  apk add --no-cache make gettext
+  apk add --no-cache gettext
