@@ -1,5 +1,5 @@
 # gettext docker image
-Docker image with gettext based on alpine.
+Docker image with gettext (envsubst) based on alpine.
 
 ## Build
 ```bash
