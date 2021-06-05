@@ -1,4 +1,4 @@
 FROM alpine:latest
 
 RUN apk update && \
-  apk add --no-cache gettext curl
+  apk add --no-cache gettext curl git
